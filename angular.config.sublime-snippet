@@ -4,13 +4,14 @@
 
     angular
         .module('${1:module}')
-        .service('${2:Service}', ${2:Service});
+        .config(configure);
 
-    function ${2:Service}() {
+        function configure() {
 
-    }
+			${2}
+        }
 })();
 ]]></content>
-    <tabTrigger>ngservice</tabTrigger>
+    <tabTrigger>ngconfig</tabTrigger>
     <scope>source.js</scope>
 </snippet>
